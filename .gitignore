@@ -1,4 +1,5 @@
-./database/*
-./venv
-./env
+database/*
+venv
+env
 data.pkl
+__pycache__/
