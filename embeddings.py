@@ -14,8 +14,11 @@ def get_embeddings(filename: str) -> list[float]:
     if not embeddings:
         return None
 
+    if not embeddings['embedding']:
+        return None
+
     response = {
-        'embedding': embeddings['embedding'],
+        'vector': embeddings['embedding'],
         'text': text,
         'filename': filename
     }
