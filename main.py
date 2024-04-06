@@ -10,6 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import config
 from app import db
 
+#oi mundo teste
 app = FastAPI()
 
 app.add_middleware(
